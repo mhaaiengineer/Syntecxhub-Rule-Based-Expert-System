@@ -19,10 +19,10 @@ The engine uses **Forward Chaining**, which starts with known data and moves for
 ---
 ## Features
 
--Multi-step Inference: Can chain rules (A -> B, B -> C).
--Reasoning Logs: Prints exactly why a conclusion was reached.
--Easy Rule Definition: Add new rules by simply adding a Rule object to the list.
-
+- Multi-step Inference: Can chain rules (A -> B, B -> C).
+- Reasoning Logs: Prints exactly why a conclusion was reached.
+- Easy Rule Definition: Add new rules by simply adding a Rule object to the list.
+  
 ## How to Run
 
 1. Open terminal in that folder.
