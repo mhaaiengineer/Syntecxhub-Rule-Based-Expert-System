@@ -1,21 +1,12 @@
-# Syntecxhub Rule-Based Expert System
 
-Rule-Based Expert System
+# Rule-Based Expert System (Forward Chaining)
 
----
-
-## Simple Forward-Chaining Rule Engine
-
-An implementation of a classic **Expert System** using **Forward Chaining** logic.  
-This engine accepts a base of facts (symptoms) and infers conclusions based on a predefined ruleset.
-
----
-
-## How it Works
-
-The engine uses **Forward Chaining**, which starts with known data and moves forward through the rules to see what else can be proven.
-
----
+## Features
+- IF-THEN rule engine
+- Facts base (user input symptoms)
+- Forward chaining inference
+- Multi-step rule chaining
+- Inference log (reasoning path)
 
 ## How to Run
 
@@ -24,3 +15,8 @@ The engine uses **Forward Chaining**, which starts with known data and moves for
 
 3. Enter facts one by one.
 4. Type 'run' to start inference.
+
+The system will:
+- Apply forward chaining
+- Show reasoning trace
+- Display final diagnosis and advice

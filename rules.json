@@ -1,0 +1,47 @@
+[
+    {
+        "id": "A1",
+        "if_all": [
+            "fever",
+            "body aches",
+            "fatigue"
+        ],
+        "then": "pattern:flu_like",
+        "note": "Fever + aches + fatigue forms a flu-like symptom cluster."
+    },
+    {
+        "id": "A2",
+        "if_all": [
+            "cough",
+            "sore throat"
+        ],
+        "then": "pattern:urti",
+        "note": "Cough + sore throat indicates an upper-respiratory pattern."
+    },
+    {
+        "id": "B1",
+        "if_all": [
+            "pattern:flu_like",
+            "pattern:urti"
+        ],
+        "then": "diagnosis:viral flu/cold",
+        "note": "Flu-like + URTI patterns support a viral flu/cold conclusion."
+    },
+    {
+        "id": "C1",
+        "if_all": [
+            "diagnosis:viral flu/cold"
+        ],
+        "then": "advice:rest and warm fluids",
+        "note": "Supportive care is recommended for viral flu/cold."
+    },
+    {
+        "id": "D1",
+        "if_all": [
+            "high fever",
+            "difficulty breathing"
+        ],
+        "then": "advice:seek urgent medical attention",
+        "note": "High fever + breathing difficulty can be serious."
+    }
+]
